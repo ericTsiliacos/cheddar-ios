@@ -6,6 +6,7 @@
 *.xcworkspace
 *.moved-aside/
 DerivedData
+Vendor/
 
 Resources/Fonts/*
 Other Sources/CDIDefines.*
