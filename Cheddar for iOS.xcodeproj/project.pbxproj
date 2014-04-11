@@ -11,6 +11,14 @@
 		21396B6717728AF70040FCA2 /* SSPullToRefreshSimpleContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21396B6317728AE50040FCA2 /* SSPullToRefreshSimpleContentView.m */; };
 		21396B6817728AF70040FCA2 /* SSPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21396B6517728AE50040FCA2 /* SSPullToRefreshView.m */; };
 		21E0A67A16AAE0BA002479F9 /* CDIViewArchiveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E0A67916AAE0BA002479F9 /* CDIViewArchiveButton.m */; };
+		6EBA1FC418F7A7E40052CFBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B208C1F315BF64630080705D /* UIKit.framework */; };
+		6EBA1FC518F7A7E40052CFBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B208C1EE15BF64630080705D /* Foundation.framework */; };
+		6EBA1FC618F7A7E40052CFBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28FD2BF15BF731000365CD6 /* CoreGraphics.framework */; };
+		6EBA1FCC18F7A7E40052CFBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EBA1FCA18F7A7E40052CFBB /* InfoPlist.strings */; };
+		6EBA1FCE18F7A7E40052CFBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBA1FCD18F7A7E40052CFBB /* main.m */; };
+		6EBA1FD218F7A7E40052CFBB /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBA1FD118F7A7E40052CFBB /* Cedar-iOS.framework */; };
+		6EBA1FD418F7A7E40052CFBB /* ExampleSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6EBA1FD318F7A7E40052CFBB /* ExampleSpec.mm */; };
+		6EBA1FD918F7A8A60052CFBB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EBA1FD818F7A8A60052CFBB /* Default-568h@2x.png */; };
 		B208BC2915BF63A80080705D /* CDIAddListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B208BB9315BF63A80080705D /* CDIAddListTableViewCell.m */; };
 		B208BC2A15BF63A80080705D /* CDIAddTaskAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B208BB9515BF63A80080705D /* CDIAddTaskAnimationView.m */; };
 		B208BC2B15BF63A80080705D /* CDIAddTaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = B208BB9715BF63A80080705D /* CDIAddTaskView.m */; };
@@ -220,6 +228,76 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6EBA1FAB18F7A7AA0052CFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBA1F9D18F7A7A90052CFBB /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE1FB611DC271300029872;
+			remoteInfo = Cedar;
+		};
+		6EBA1FAD18F7A7AA0052CFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBA1F9D18F7A7A90052CFBB /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE218611DC28E200029872;
+			remoteInfo = Specs;
+		};
+		6EBA1FAF18F7A7AA0052CFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBA1F9D18F7A7A90052CFBB /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96A07F0813F276640021974D;
+			remoteInfo = FocusedSpecs;
+		};
+		6EBA1FB118F7A7AA0052CFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBA1F9D18F7A7A90052CFBB /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE222911DC2B0600029872;
+			remoteInfo = "Cedar-StaticLib";
+		};
+		6EBA1FB318F7A7AA0052CFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBA1F9D18F7A7A90052CFBB /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE227611DC2CF900029872;
+			remoteInfo = iOSSpecs;
+		};
+		6EBA1FB518F7A7AA0052CFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBA1F9D18F7A7A90052CFBB /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AE02E7E4184EABCD00414F19;
+			remoteInfo = iOSFrameworkSpecs;
+		};
+		6EBA1FB718F7A7AA0052CFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBA1F9D18F7A7A90052CFBB /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5F9F6144A81A7000A6A5D;
+			remoteInfo = OCUnitApp;
+		};
+		6EBA1FB918F7A7AA0052CFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBA1F9D18F7A7A90052CFBB /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5FA11144A81A8000A6A5D;
+			remoteInfo = OCUnitAppTests;
+		};
+		6EBA1FBB18F7A7AA0052CFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBA1F9D18F7A7A90052CFBB /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1F45A3DD180E4796003C1E36;
+			remoteInfo = XCUnitAppTests;
+		};
+		6EBA1FBD18F7A7AA0052CFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EBA1F9D18F7A7A90052CFBB /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96158A86144A915E005895CE;
+			remoteInfo = OCUnitAppLogicTests;
+		};
 		B208C1DE15BF63E30080705D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B208BF6715BF63E00080705D /* SSToolkit.xcodeproj */;
@@ -288,6 +366,16 @@
 		21396B6517728AE50040FCA2 /* SSPullToRefreshView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSPullToRefreshView.m; sourceTree = "<group>"; };
 		21E0A67816AAE0BA002479F9 /* CDIViewArchiveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIViewArchiveButton.h; sourceTree = "<group>"; };
 		21E0A67916AAE0BA002479F9 /* CDIViewArchiveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDIViewArchiveButton.m; sourceTree = "<group>"; };
+		6EBA1F9D18F7A7A90052CFBB /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
+		6EBA1FC318F7A7E40052CFBB /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBA1FC918F7A7E40052CFBB /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
+		6EBA1FCB18F7A7E40052CFBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EBA1FCD18F7A7E40052CFBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EBA1FCF18F7A7E40052CFBB /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
+		6EBA1FD018F7A7E40052CFBB /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		6EBA1FD118F7A7E40052CFBB /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		6EBA1FD318F7A7E40052CFBB /* ExampleSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExampleSpec.mm; sourceTree = "<group>"; };
+		6EBA1FD818F7A8A60052CFBB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B208BB9215BF63A80080705D /* CDIAddListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIAddListTableViewCell.h; sourceTree = "<group>"; };
 		B208BB9315BF63A80080705D /* CDIAddListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDIAddListTableViewCell.m; sourceTree = "<group>"; };
 		B208BB9415BF63A80080705D /* CDIAddTaskAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDIAddTaskAnimationView.h; sourceTree = "<group>"; };
@@ -551,6 +639,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6EBA1FC018F7A7E40052CFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBA1FC618F7A7E40052CFBB /* CoreGraphics.framework in Frameworks */,
+				6EBA1FC418F7A7E40052CFBB /* UIKit.framework in Frameworks */,
+				6EBA1FD218F7A7E40052CFBB /* Cedar-iOS.framework in Frameworks */,
+				6EBA1FC518F7A7E40052CFBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B23FA752151FE0710069A0D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -593,6 +692,45 @@
 				21396B6517728AE50040FCA2 /* SSPullToRefreshView.m */,
 			);
 			path = SSPullToRefresh;
+			sourceTree = "<group>";
+		};
+		6EBA1F9E18F7A7A90052CFBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EBA1FAC18F7A7AA0052CFBB /* Cedar.framework */,
+				6EBA1FAE18F7A7AA0052CFBB /* Specs */,
+				6EBA1FB018F7A7AA0052CFBB /* FocusedSpecs */,
+				6EBA1FB218F7A7AA0052CFBB /* libCedar-StaticLib.a */,
+				6EBA1FB418F7A7AA0052CFBB /* iOSSpecs.app */,
+				6EBA1FB618F7A7AA0052CFBB /* iOSFrameworkSpecs.app */,
+				6EBA1FB818F7A7AA0052CFBB /* OCUnitApp.app */,
+				6EBA1FBA18F7A7AA0052CFBB /* OCUnitAppTests.octest */,
+				6EBA1FBC18F7A7AA0052CFBB /* XCUnitAppTests.xctest */,
+				6EBA1FBE18F7A7AA0052CFBB /* OCUnitAppLogicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EBA1FC718F7A7E40052CFBB /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				6EBA1FD018F7A7E40052CFBB /* Rakefile */,
+				6EBA1FD118F7A7E40052CFBB /* Cedar-iOS.framework */,
+				6EBA1FD318F7A7E40052CFBB /* ExampleSpec.mm */,
+				6EBA1FC818F7A7E40052CFBB /* Supporting Files */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		6EBA1FC818F7A7E40052CFBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EBA1FC918F7A7E40052CFBB /* Specs-Info.plist */,
+				6EBA1FCA18F7A7E40052CFBB /* InfoPlist.strings */,
+				6EBA1FCD18F7A7E40052CFBB /* main.m */,
+				6EBA1FCF18F7A7E40052CFBB /* Specs-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B208BB9115BF63A80080705D /* Classes */ = {
@@ -767,6 +905,7 @@
 		B208BC9D15BF63E00080705D /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				6EBA1F9D18F7A7A90052CFBB /* Cedar.xcodeproj */,
 				B208C1FD15BF65490080705D /* CheddarKit */,
 				B208BE5E15BF63E00080705D /* Localytics */,
 				B208BEBF15BF63E00080705D /* SSPullToRefresh */,
@@ -982,10 +1121,12 @@
 		B23FA74A151FE0710069A0D1 = {
 			isa = PBXGroup;
 			children = (
+				6EBA1FD818F7A8A60052CFBB /* Default-568h@2x.png */,
 				B208BB9115BF63A80080705D /* Classes */,
 				B208BBD015BF63A80080705D /* Other Sources */,
 				B208BBD315BF63A80080705D /* Resources */,
 				B208BC9D15BF63E00080705D /* Vendor */,
+				6EBA1FC718F7A7E40052CFBB /* Specs */,
 				B208C1FC15BF64690080705D /* Frameworks */,
 				B23FA756151FE0710069A0D1 /* Products */,
 			);
@@ -995,6 +1136,7 @@
 			isa = PBXGroup;
 			children = (
 				B23FA755151FE0710069A0D1 /* Cheddar.app */,
+				6EBA1FC318F7A7E40052CFBB /* Specs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1109,6 +1251,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6EBA1FC218F7A7E40052CFBB /* Specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBA1FD518F7A7E40052CFBB /* Build configuration list for PBXNativeTarget "Specs" */;
+			buildPhases = (
+				6EBA1FBF18F7A7E40052CFBB /* Sources */,
+				6EBA1FC018F7A7E40052CFBB /* Frameworks */,
+				6EBA1FC118F7A7E40052CFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Specs;
+			productName = Specs;
+			productReference = 6EBA1FC318F7A7E40052CFBB /* Specs.app */;
+			productType = "com.apple.product-type.application";
+		};
 		B23FA754151FE0710069A0D1 /* Cheddar for iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B23FA772151FE0710069A0D1 /* Build configuration list for PBXNativeTarget "Cheddar for iOS" */;
@@ -1167,6 +1326,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 6EBA1F9E18F7A7A90052CFBB /* Products */;
+					ProjectRef = 6EBA1F9D18F7A7A90052CFBB /* Cedar.xcodeproj */;
+				},
+				{
 					ProductGroup = B208C21315BF65490080705D /* Products */;
 					ProjectRef = B208C21215BF65490080705D /* CheddarKit.xcodeproj */;
 				},
@@ -1178,11 +1341,82 @@
 			projectRoot = "";
 			targets = (
 				B23FA754151FE0710069A0D1 /* Cheddar for iOS */,
+				6EBA1FC218F7A7E40052CFBB /* Specs */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		6EBA1FAC18F7A7AA0052CFBB /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = 6EBA1FAB18F7A7AA0052CFBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBA1FAE18F7A7AA0052CFBB /* Specs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Specs;
+			remoteRef = 6EBA1FAD18F7A7AA0052CFBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBA1FB018F7A7AA0052CFBB /* FocusedSpecs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FocusedSpecs;
+			remoteRef = 6EBA1FAF18F7A7AA0052CFBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBA1FB218F7A7AA0052CFBB /* libCedar-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCedar-StaticLib.a";
+			remoteRef = 6EBA1FB118F7A7AA0052CFBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBA1FB418F7A7AA0052CFBB /* iOSSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSSpecs.app;
+			remoteRef = 6EBA1FB318F7A7AA0052CFBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBA1FB618F7A7AA0052CFBB /* iOSFrameworkSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSFrameworkSpecs.app;
+			remoteRef = 6EBA1FB518F7A7AA0052CFBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBA1FB818F7A7AA0052CFBB /* OCUnitApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OCUnitApp.app;
+			remoteRef = 6EBA1FB718F7A7AA0052CFBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBA1FBA18F7A7AA0052CFBB /* OCUnitAppTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCUnitAppTests.octest;
+			remoteRef = 6EBA1FB918F7A7AA0052CFBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBA1FBC18F7A7AA0052CFBB /* XCUnitAppTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = XCUnitAppTests.xctest;
+			remoteRef = 6EBA1FBB18F7A7AA0052CFBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EBA1FBE18F7A7AA0052CFBB /* OCUnitAppLogicTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCUnitAppLogicTests.octest;
+			remoteRef = 6EBA1FBD18F7A7AA0052CFBB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		B208C1DF15BF63E30080705D /* libSSToolkit.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1221,6 +1455,15 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6EBA1FC118F7A7E40052CFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBA1FCC18F7A7E40052CFBB /* InfoPlist.strings in Resources */,
+				6EBA1FD918F7A8A60052CFBB /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B23FA753151FE0710069A0D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1381,6 +1624,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6EBA1FBF18F7A7E40052CFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBA1FCE18F7A7E40052CFBB /* main.m in Sources */,
+				6EBA1FD418F7A7E40052CFBB /* ExampleSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B23FA751151FE0710069A0D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1464,7 +1716,101 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		6EBA1FCA18F7A7E40052CFBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBA1FCB18F7A7E40052CFBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		6EBA1FD618F7A7E40052CFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/erictsiliacos/workspace/cheddar-ios/Specs/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EBA1FD718F7A7E40052CFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/erictsiliacos/workspace/cheddar-ios/Specs/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		B23FA770151FE0710069A0D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1608,6 +1954,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6EBA1FD518F7A7E40052CFBB /* Build configuration list for PBXNativeTarget "Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBA1FD618F7A7E40052CFBB /* Debug */,
+				6EBA1FD718F7A7E40052CFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B23FA74F151FE0710069A0D1 /* Build configuration list for PBXProject "Cheddar for iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
