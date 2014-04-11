@@ -13,3 +13,6 @@
 [submodule "Vendor/SSPullToRefresh"]
 	path = Vendor/SSPullToRefresh
 	url = https://github.com/soffes/sspulltorefresh.git
+[submodule "Vendor/cedar"]
+	path = Vendor/cedar
+	url = git://github.com/pivotal/cedar.git
