@@ -1961,6 +1961,7 @@
 				6EBA1FD718F7A7E40052CFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B23FA74F151FE0710069A0D1 /* Build configuration list for PBXProject "Cheddar for iOS" */ = {
 			isa = XCConfigurationList;
